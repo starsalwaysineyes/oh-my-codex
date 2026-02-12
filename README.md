@@ -40,3 +40,7 @@ cp -R skills/* ~/.codex/skills/
 ## 说明
 
 这些技能已去除 Claude Code 专属调用（如 `/oh-my-claudecode:*`、`Task(...)`、`AskUserQuestion` 等），改为 Codex 可执行语义（如 `rg`、`functions.exec_command`、`multi_tool_use.parallel`、`update_plan`）。
+
+## 致谢
+
+本项目在思路和部分技能组织方式上参考了 [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)，并针对 Codex 工作流做了本土化调整。
